@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.search form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+article {
+    width: 60%;
+}
+
+
+aside {
+    width: 30%;
+    text-align: center;
+}
+
+
+.conteiner img {
+    margin-top: 5px;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer{
+    border-top: 2px solid #000;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+bye{
+    border-top: 2px solid #000;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
